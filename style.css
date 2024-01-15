@@ -63,3 +63,99 @@
     display: none;
 }
 /*navigation menu end */
+/*explore your travel section start */
+.bg_one {
+    width: 100%;
+    height: 467px;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("images/group13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.for_travel_bg_wrap {
+    width: 82%;
+    margin: auto;
+}
+.bg_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exlore_text p {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.travel_first_text {
+    margin-top: 3%;
+}
+.travel_first_text p {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.where_go_button_container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px;
+}
+
+.search_button button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    white-space:no-wrap;
+    padding: 1.5px 30px;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search_box,
+.select_box {
+    display: flex;
+    align-items: center;
+}
+
+.search_box input,
+.select_box select,
+.search_box button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.select_box select {
+    background-color: #FFF;
+}
+.search_box button {
+    border-radius: 5px;
+    background: #FF5400;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/*explore your travel section end */
