@@ -673,3 +673,153 @@
     line-height: 26px; 
 }
 /* deal section end */
+/* discount-galary section start */
+
+.discount_gallary_start {
+    width: 82%;
+    margin: 2% auto;
+}
+.discount_gallery_con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.dis_bg_img_insert {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url("images/group39.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner_div_one {
+    width: 50%;
+    margin-right: 40px;
+    
+}
+.inner_text_one {
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.etc_one {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    gap: 15px;
+}
+.etc_one p {
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.satorini  {
+    margin-top: 15px;
+}
+.satorini p {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.satrorini_pera {
+    margin-top: 10px;
+}
+.inner_price {
+    margin-top: 10px;
+}
+.satrorini_pera p {
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.inner_price p {
+    color: #FF5400;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.book_now_button {
+    margin-top: 15px;
+}
+.read_more_two {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF5400;
+    font-family: Mulish;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dis_bg_img_insert_two {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url("images/group39.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.inner_div_two {
+    width: 50%;
+    margin-left: 40px;
+}
+.inner_text_two {
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.dis_bg_img_insert_three {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url("images/group39.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.inner_div_three {
+    width: 50%;
+    margin-right: 40px;
+}
+.inner_text_three {
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+/* discount-galary section end */
