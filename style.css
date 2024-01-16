@@ -649,3 +649,27 @@
     margin-top: 10px;
 }
 /* handpich hotel section end*/
+/* deal section start */
+.deal_and_dis_main {
+    width: 60%;
+    margin: 6% auto;
+}
+.deal_text p {
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.deal_pera p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+/* deal section end */
