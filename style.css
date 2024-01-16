@@ -529,3 +529,123 @@
     line-height: 26px; 
 }
 /* why choose us end */
+/* handpich hotel section start */
+.handpick_section_main {
+    width: 82%;
+    margin: 3% auto;
+}
+.handpick_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.handpick_insert {
+    width: 50%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.world_service {
+    width: 50%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.hand_pcc_text p {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.world_head p {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hand_pcc_para p {
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.world_pera p {
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.icon_one, .hand_pcc_text, .hand_pcc_para {
+    margin-left: 3%;
+}
+.icon_two, .world_head, .world_pera {
+    margin-left: 3%;
+}
+.hand_pcc_text {
+    margin-top: 15px;
+}
+.hand_pcc_para {
+    margin-top: 10px;
+}
+.world_head {
+    margin-top: 15px;
+}
+.world_pera {
+    margin-top: 10px;
+}
+.best_price_section {
+    width: 82%;
+    height: 180px;
+    padding: 5px;
+    margin: 3% auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.price_head p {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.price_pera p {
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.icon_three, .price_head, .price_pera {
+    margin-left: 3%;
+}
+.icon_three {
+    margin-top: 15px;
+}
+.price_head {
+    margin-top: 10px;
+}
+.price_pera  {
+    margin-top: 10px;
+}
+/* handpich hotel section end*/
