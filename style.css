@@ -1106,3 +1106,407 @@ footer {
     line-height: normal;
 }
 /* footer section end */
+
+/* !Responsive Styles start here */
+
+/* nav responsive start */
+@media only screen and (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+        background-color: #333;
+    }
+    .nav_brand_name {
+        margin-left: 5%;
+    }
+
+
+    .navbar li {
+        border-top: 1px solid #555;
+    }
+
+    .navbar li:first-child {
+        border-top: none;
+    }
+
+    .navbar a {
+        padding: 15px;
+        display: block;
+        color: white;
+    }
+
+    #menu_toggle:checked + .menu_icon + .navbar ul {
+        display: flex;
+    }
+
+    .menu_icon {
+        display: block;
+        position: static;
+        right: 0;
+        z-index: 2;
+        color: #131318;
+        
+    }
+}
+@media only screen and (max-width : 276px) {
+    .glory {
+        font-weight: 800;
+        font-size: 22px;
+        line-height: normal;
+        font-family: 'Mulish', sans-serif;
+    }
+    .travl {
+        font-weight: 800;
+        font-size: 22px;
+        line-height: normal;
+        font-family: 'Mulish', sans-serif;
+    }
+}
+/* nav responsive end */
+/*explore your travel section responsive start */
+@media only screen and (max-width: 690px) {
+    .bg_one {
+    width: 100%;
+    height: 467px;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("images/group13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+    .exlore_text p {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+    .where_go_button_container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search_box input {
+    width: 255px;
+    height: 45px;
+    flex-shrink: 0;
+}
+.select_box select {
+    width: 255px;
+    height: 45px;
+    flex-shrink: 0;
+    
+}
+.search_box button {
+    width: 255px;
+    height: 45px;
+    flex-shrink: 0;
+}
+.travel_first_text p  {
+    font-size: 12px;
+}
+}
+@media only screen and (max-width: 355px){
+    .search_box input {
+    width: 180px !important;
+    height: 45px;
+    flex-shrink: 0;
+}
+.select_box select {
+    width: 180px !important;
+    height: 45px;
+    flex-shrink: 0;
+    
+}
+.search_box button {
+    width: 180px;
+    height: 45px;
+    flex-shrink: 0;
+}
+.travel_first_text p  {
+    font-size: 12px;
+}
+}
+/*explore your travel section responsive end */
+
+/*our popular tours section responsive start here */
+@media only screen and (max-width : 992px ){
+    .popular_sec_wrap {
+        flex-direction: column !important;
+    }
+    .our_tour_text_container, .mount_img_wrap {
+        width: 100% !important;
+        width: 100% !important;
+        margin: auto;
+    }
+    .mount_img_wrap {
+        margin-top: 4%;
+    }
+    .mount_img {
+    height: 300px;
+} 
+}
+
+@media only screen and (max-width : 450px ) {
+    .our_tour_text p {
+        font-size: 22px;
+    }
+}
+/*our popular tours section responsive end here */
+
+/* desti ga;erry section responsive start here */
+@media only screen and (max-width: 590px) {
+    .choose_desti_text p {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 292px) {
+     .choose_desti_text p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .desti_galary_first {
+        
+        flex-direction: column !important;
+        width: 100%;
+        gap: 15px !important;
+    }
+    .desti_img_one {
+        width: 100% !important;
+    }
+    .desti_img_two {
+        width: 100% !important;
+    }
+    .desti_galary_second {
+        width: 100%;
+        flex-direction: column !important;
+        margin-top: 5%;
+        width: 100%;
+        gap: 15px !important;
+    }
+    .desti_img_third, .desti_img_second_of_third, .desti_img_third_of_third {
+        width: 100%;
+    }
+    .third_galary_con {
+        width: 100%;
+        margin-top: 5%;
+
+    }
+    .desti_galary_third {
+        flex-direction: column;
+        gap: 15px !important;
+    }
+
+    .desti_img_last_of_third {
+        width: 100%;
+    }
+    .desti_img_grand_last_of_third {
+        width: 100%;
+    }
+    .desti_img_seven_inser {
+        width: 100%;
+    }
+}
+
+/* why choose us responsive start */
+@media only screen and (max-width :800px){
+    .why_choose_para {
+        width: 90%;
+    }
+    .why_choose_wrap p {
+        font-size: 25px;
+    }
+}
+/* why choose us responsive end */
+
+/* handpich hotel section responsive start*/
+@media only screen and (max-width : 992px){
+    .handpick_section_main {
+        width: 90%;
+    }
+    .handpick_container {
+        flex-direction: column;
+
+    }
+    .handpick_insert {
+        height: fit-content;
+        width: 90%;
+    }
+    .world_service {
+        margin-top: 5%;
+        height: fit-content;
+        width: 90%;
+    }
+    .world_head p {
+        font-size: 20px;
+    }
+    .world_head p {
+        font-size: 20px;
+    }
+    .world_service, .handpick_insert  {
+        padding: 5px;
+    }
+   
+    
+}
+@media only screen and (max-width : 992px) {
+    .best_price_section {
+        height: fit-content;
+        width: 90%;
+    }
+    .price_head p {
+        font-size: 20px;
+    }
+}
+/* handpich hotel section responsive end*/
+
+/* deal section responsive start */
+
+@media only screen and (max-width : 992px) {
+    .deal_and_dis_main {
+        width: 80%;
+    }
+    .deal_text p {
+        font-size: 22px;
+    }
+    .deal_pera {
+        margin-top: 8px;
+    }
+}
+/* deal section responsive end */
+
+/* discount-galary section responsive start */
+
+@media only screen and (max-width : 992px) {
+    .discount_gallary_start {
+        width: 90%;
+    }
+    .dis_bg_img_insert, .dis_bg_img_insert_two ,.dis_bg_img_insert_three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+}
+    .inner_div_one, .inner_div_two, .inner_div_three  {
+        width: 90%;
+        margin: auto;
+    }
+    .satrorini_pera p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .satorini {
+        margin-top: 5px;
+    }
+    .satorini P {
+        font-size: 20px;
+    }
+    .etc_one P {
+        font-size: 8px;
+    }
+    .inner_price p {
+        font-size: 10px;
+    }
+    .etc_one {
+        gap: 2px;
+    }
+}
+
+/*  simple perfect section responsive start */
+@media only screen and (max-width : 992px) {
+    .simple_perfect_sec {
+        width: 90%;
+    }
+    .simple_perfect_text {
+        flex-direction: column;
+    }
+    .left_side_video {
+        width: 90%;
+    }
+    .video_con {
+        width: 90%;
+        margin-top: 2%;
+    }
+    .video_con iframe {
+        width: 95%;
+    }
+}
+@media only screen and (max-width : 500px) {
+    .simple_perfect_head {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+/*  simple perfect section responsive end */
+
+/*newsletter section responsive start */
+@media only screen and (max-width : 992px) {
+    .newsletter_main {
+        width: 90%;
+    }
+    .news_seper {
+        flex-direction: column;
+    }
+    .newsltter_con {
+        width: 90%;
+    }
+    .mountain_img {
+        width: 90%;
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width : 750px) {
+    .rottate {
+    width:  250px;
+    height: 100px;
+    position: absolute;
+    bottom: 13%;
+    right: 2%;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+}
+.com {
+    font-size: 17px;
+}
+.parcent {
+    font-size: 23px;
+}
+}
+/* footer section responsive start*/
+@media only screen and (max-width : 992px) {
+    .footer_con{
+        width: 90%;
+        margin: 3% auto;
+        
+    }
+    footer {
+        height: fit-content;
+    }
+    .glr, .tlr {
+        font-size: 20px;
+    }
+}
+/* footer section responsive end*/
