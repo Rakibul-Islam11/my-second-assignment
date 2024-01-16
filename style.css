@@ -823,3 +823,25 @@
     backdrop-filter: blur(2.5px);
 }
 /* discount-galary section end */
+/* just btn start */
+.just_btn {
+    width: 82%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.just_btn a {
+    text-align: center;
+}
+.just_bbttnn {
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px 20px;
+    background-color: #FF5400;;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+/* just btn end */
